@@ -7,7 +7,7 @@ let forecastArr;
 let day1, day2, day3;
 let landName = "Cairo";
 
-let link = `http://api.weatherapi.com/v1/forecast.json?key=b1edd012b88e40bf9d0144859241808&q=${landName}&days=3`;
+let link = `https://api.weatherapi.com/v1/forecast.json?key=b1edd012b88e40bf9d0144859241808&q=${landName}&days=3`;
 
 // Fetch data from API link function
 function fetchData() {
@@ -29,7 +29,7 @@ fetchData();
 
 // When clicked on the search button
 searchBtn.addEventListener("click", () => {
-  link = `http://api.weatherapi.com/v1/forecast.json?key=b1edd012b88e40bf9d0144859241808&q=${landNameFunc()}&days=3`;
+  link = `https://api.weatherapi.com/v1/forecast.json?key=b1edd012b88e40bf9d0144859241808&q=${landNameFunc()}&days=3`;
   fetchData();
   searchInpt.value = "";
   searchInpt.focus();
