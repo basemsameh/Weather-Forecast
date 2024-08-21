@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Weather Forecast</title>
+</head>
+
+<body class="position-relative">
+  <main>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg shadow py-3 bg-white mt-2 rounded-2">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">WeatherForecast</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Content -->
+      <section class="content">
+        <div class="search-field">
+          <div class="row justify-content-center">
+            <input type="search" class="py-2 me-0 mb-3 mb-md-0 me-md-4 rounded-2 col-sm-12 col-md-7 col-lg-10" placeholder="Search"
+              id="searchInpt">
+            <button class="btn btn-outline-primary d-block w-auto col-sm-12 col-md-5 col-lg-2"
+              id="searchBtn">Search</button>
+          </div>
+        </div>
+        <div class="boxs row mt-5 pt-3">
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
