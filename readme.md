@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple steps:
 ## Links
 
 - **Repo**: [Github Repo](https://github.com/basemsameh/Weather-Forecast.git)
-- **Demo**: [Live URL](https://basemsameh.github.io/Todo-List-App/)
+- **Demo**: [Live URL](https://basemsameh.github.io/Weather-Forecast/)
 
 ## Author
 
